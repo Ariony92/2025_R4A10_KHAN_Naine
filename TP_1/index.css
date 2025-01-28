@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    padding-right: 200px;
+
+}
+
+#cartes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: #ffffff;
+    }
+}
