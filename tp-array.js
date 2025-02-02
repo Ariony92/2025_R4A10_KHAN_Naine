@@ -39,51 +39,57 @@ module.exports = {
 
   //4) Trier le tableau dans l'ordre croissant, renvoyez le tableau trié
   Q4() {
-    // Implémentation ici
+    return getArray().sort();
   },
 
   //5) Ajouter la valeur 0 en premier index du tableau, renvoyez le tableau modifié
   Q5() {
-    // Implémentation ici
+    return getArray().unshift(0)
   },
 
   //6) Faire la somme des éléments du tableau avec une boucle for. Renvoyez la somme
   Q6() {
-    // Implémentation ici
+    let somme=0;
+    for (let i = 0; i < getArray().length; i++) {
+      somme=getArray()[i];
+    }
+    return somme;
   },
 
   //7) Faire la somme des éléments du tableau avec une méthode spécifique de tableau (reduce), renvoyez la somme
   Q7() {
-    // Implémentation ici
+  return getArray().reduce((a, b) => a + b, 0);
   },
 
   //8) Remplacer la troisième valeur du tableau par "ici", renvoyez le tableau
   Q8() {
-    // Implémentation ici
+    let arr = getArray()
+    arr[2] = "ici";
+    return arr;
   },
 
   //9) Retirer le dernier index, renvoyez le tableau
   Q9() {
-    // Implémentation ici
+    return getArray().pop();
   },
 
   //10) Renvoyez le type de la variable ARRAY
   Q10() {
-    // Implémentation ici
+    return typeof getArray();
   },
 
   //11) En utilisant une méthode spécifique aux tableaux, renvoyer un booléen vérifiant que le résultat de getArray() est bien un tableau
   Q11() {
-    // Implémentation ici
+    return Array.isArray(getArray());
   },
 
   //12) Renvoyer le tableau sous forme de chaîne de caractère où les éléments sont séparés par un tiret (-)
   Q12() {
-    // Implémentation ici
+    return getArray().join('-');
   },
 
   //13) Renvoyer le tableau en gardant uniquement les 2 derniers éléments
   Q13() {
-    // Implémentation ici
+    return getArray().shift();
   }
 };
