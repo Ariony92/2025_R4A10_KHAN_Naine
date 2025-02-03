@@ -134,9 +134,12 @@ footer a {
         grid-template-columns: 1fr;
         max-width: 100%;
     }
-    #footer{
+    footer{
+        display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
+        padding: 18px;
     }
     .footerBlock{
         width: 100%;
@@ -156,6 +159,7 @@ footer a {
         justify-content: space-around;
 
     }
+
 }
 
 @media screen and (min-width: 1200px){
