@@ -11,5 +11,21 @@ module.exports = {
 */
   F1() {
 
+    let tab =[];
+    let message ="";
+    for (let i = 1; i <= 35; i++) {
+      if (i%3===0 && i%5===0){
+          message = "Python";
+      }else if(i%3===0){
+          message = "JavaScript";
+      }else if(i%5===0){
+          message ="TypeScript";
+      }else {
+        message = i;
+      }
+      tab.push(message);
+    }
+    return tab;
+
   },
 };

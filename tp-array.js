@@ -16,7 +16,7 @@ module.exports = {
     let tab =[];
     for (let i = 0; i < getArray().length; i++) {
       if (getArray()[i]>=15){
-        tab.push(getArray()[i])
+        tab.push(getArray()[i]);
       }
     }
     return tab;
@@ -36,22 +36,22 @@ module.exports = {
 
   //4) Trier le tableau dans l'ordre croissant, renvoyez le tableau trié
   Q4() {
-    let tab = getArray()
-    tab.sort(((a, b) => a - b))
-    return tab
+    let tab = getArray();
+    tab.sort(((a, b) => a - b));
+    return tab;
   },
 
   //5) Ajouter la valeur 0 en premier index du tableau, renvoyez le tableau modifié
   Q5() {
-    let tab = getArray()
-    tab.unshift(0)
-    return tab
+    let tab = getArray();
+    tab.unshift(0);
+    return tab;
   },
 
   //6) Faire la somme des éléments du tableau avec une boucle for. Renvoyez la somme
   Q6() {
     let somme=0;
-    let tab = getArray()
+    let tab = getArray();
     for (let i = 0; i < tab.length; i++) {
       somme+=tab[i];
     }
@@ -73,8 +73,8 @@ module.exports = {
   //9) Retirer le dernier index, renvoyez le tableau
   Q9() {
     let tab = getArray()
-    tab.pop()
-    return tab
+    tab.pop();
+    return tab;
   },
 
   //10) Renvoyez le type de la variable ARRAY
