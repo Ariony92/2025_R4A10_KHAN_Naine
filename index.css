@@ -1,5 +1,3 @@
-
-
 header {
     display: flex;
     justify-content: space-between;
@@ -131,11 +129,6 @@ footer a {
     }
     nav{
         display: none;
-    }
-    nav.active{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
     }
     #cartes{
         grid-template-columns: 1fr;

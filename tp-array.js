@@ -24,34 +24,36 @@ module.exports = {
 
   //2) Renvoyer l'index de la première valeur strictement inférieure à 7
   Q2() {
-    for (let i = 0; i < getArray().length ; i++) {
-      if (getArray()[i] < 7){
-        return getArray()[i];
-      }
-    }
+    return getArray().findIndex((i) => i < 7);
+
 
   },
 
   //3) Inverser le tableau en utilisant une méthode spécifiquement prévue à cet effet. Renvoyez ce tableau inversé
   Q3() {
-    getArray().reverse();
+    return getArray().reverse();
   },
 
   //4) Trier le tableau dans l'ordre croissant, renvoyez le tableau trié
   Q4() {
-    return getArray().sort();
+    let tab = getArray()
+    tab.sort(((a, b) => a - b))
+    return tab
   },
 
   //5) Ajouter la valeur 0 en premier index du tableau, renvoyez le tableau modifié
   Q5() {
-    return getArray().unshift(0)
+    let tab = getArray()
+    tab.unshift(0)
+    return tab
   },
 
   //6) Faire la somme des éléments du tableau avec une boucle for. Renvoyez la somme
   Q6() {
     let somme=0;
-    for (let i = 0; i < getArray().length; i++) {
-      somme=getArray()[i];
+    let tab = getArray()
+    for (let i = 0; i < tab.length; i++) {
+      somme+=tab[i];
     }
     return somme;
   },
@@ -70,7 +72,9 @@ module.exports = {
 
   //9) Retirer le dernier index, renvoyez le tableau
   Q9() {
-    return getArray().pop();
+    let tab = getArray()
+    tab.pop()
+    return tab
   },
 
   //10) Renvoyez le type de la variable ARRAY
@@ -90,6 +94,6 @@ module.exports = {
 
   //13) Renvoyer le tableau en gardant uniquement les 2 derniers éléments
   Q13() {
-    return getArray().shift();
+    return getArray().slice(-2);
   }
 };

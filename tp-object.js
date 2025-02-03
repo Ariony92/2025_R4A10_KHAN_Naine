@@ -28,14 +28,20 @@ module.exports = {
 
   // 3) Renvoyer les clés de l'objet sous forme de tableau
   Q3() {
-  // a voir jsp
+    let tab =[];
+    for (let i in getObject()) {
+      tab.push(i);
+    }
+    return tab;
   },
 
   // 4) --- Supprimée ---
 
   // 5) Ajouter la propriété email à myObject et renvoyer l'objet modifié
   Q5() {
-   //
+    let obj = getObject();
+    obj.email = email;
+    return obj;
   },
 
   // 6) Ajouter une propriété dynamique étant le résultat de la concaténation des chaines hello et world et dont la valeur est true
