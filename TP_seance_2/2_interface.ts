@@ -10,7 +10,7 @@ avant qu'elles ne soient retournées au frontend
 Nous allons utiliser une approche généraliste, et nous ferons la supposition que nos repositories 
 fonctionnent avec des fonctions communes, ce qui nous fera une très bonne occasion de pratiquer le I de SOLID.
 */
-
+/// <reference lib="es2015" />
 /* 
 1. Etablir une interface générique
 
@@ -36,7 +36,7 @@ attention on renvoie un tableau de T
 */
 
 interface FindMany<T> {
-    findMany(): Promise<T[]>
+    findMany(): Promise<T[]>;
 }
 
 /*
@@ -70,16 +70,16 @@ Dans la première question, vous avez fait FindMany. Sur le même modèle, faite
 */
 
 interface findOne<T> {
-    findOne(id): Promise<T>
+    findOne(id : number): Promise<T>;
 }
 interface create<T>{
-    create<T>(): Promise<T>
+    create(arg : T): Promise<T>;
 }
-interface update<T>{
-    update(id): Promise<T>
+interface Update<T>{
+    update(id : number, arg: T): Promise<T>;
 }
 interface Delete{
-    delete(id): Promise<void>
+    delete(id: number): Promise<void>;
 }
 
 /*
@@ -98,7 +98,21 @@ Un cours est matérialisé par:
 - active, booléen
 */
 
-// Implémentez ici
+type Student ={
+    id: number;
+    firstName: string;
+    lastName: string
+    group: string;
+}
+
+type Course ={
+    id: number;
+    name: string;
+    enseignant: string;
+    active: boolean;
+}
+
+
 
 /*
 4. Créer les interfaces StudentRepository et CourseRepository
@@ -109,7 +123,8 @@ Ces deux interfaces vont étendre les interfaces CRUD que vous avez créées et 
 - CourseRepository étend FindMany, FindOne, Create et Update uniquement. Chaque interface prend Course en paramètre
 */
 
-// Implémentez ici
+interface StudentRepository extends FindMany<Student>, findOne<Student>, create<Student>, Update<Student>, Delete{}
+interface CourseRepository extends FindMany<Course>, findOne<Course>, create<Course>, Update<Course> {}
 
 /*
 5. Implémentation des classes
@@ -124,7 +139,40 @@ Chaque fonction devra être précédée du mot clé async : https://developer.mo
 Pour les findMany, retournez simplement un tableau vide, pour les autres, vous pouvez retourner null pour chaque méthode
 */
 
-// Implémentez ici
+class SQLStudentRepository implements StudentRepository  {
+    async findMany(): Promise<Student[]> {
+        return [];
+    }
+    async findOne(id : number): Promise<Student> {
+        return null;
+    }
+    async create(etudiant: Student): Promise<Student> {
+        return null;
+    }
+    async update(id: number, etudiant: Student): Promise<Student> {
+        return null;
+    }
+    async delete(id: number): Promise<void> {
+        return null;
+    }
+
+}
+
+class SQLCourseRepository implements CourseRepository{
+    async findMany(): Promise<Course[]> {
+        return [];
+    }
+    async findOne(id: number): Promise<Course> {
+        return null;
+    }
+    async create(cours: Course): Promise<Course> {
+        return null;
+    }
+    async update(id: number, cours: Course): Promise<Course> {
+        return null;
+    }
+
+}
 
 /**
  * Ca y est, vous êtes des génies (en devenir) du design logiciel en POO (le web aujourd'hui c'est beaucoup de software design, va falloir se préparer)

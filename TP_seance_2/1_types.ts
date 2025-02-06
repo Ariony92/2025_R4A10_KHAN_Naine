@@ -129,7 +129,7 @@ Vous verrez tout ça plus en détail en cours d'Architecture et en troisième an
 
 type Route = {
     path: string;
-    method: Requete;
+    method: HttpMethod;
     handler: string;
     guards?: Guard[];  //Array<Guard>
     validationSchema?: ValidationSchema;
