@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dbd094d-d48f-44a8-b055-c08e8680990b" name="Changes" comment="manques des fichiers tp-object et tp-string lors de la récuperaton" />
+    <list default="true" id="8dbd094d-d48f-44a8-b055-c08e8680990b" name="Changes" comment="A faire: les cartes">
+      <change afterPath="$PROJECT_DIR$/TpAngularSite/src/assets/loop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +109,8 @@
       <workItem from="1738937532972" duration="175000" />
       <workItem from="1738937843222" duration="78000" />
       <workItem from="1739261844430" duration="9182000" />
-      <workItem from="1739276484544" duration="2539000" />
+      <workItem from="1739276484544" duration="2658000" />
+      <workItem from="1739456565237" duration="5194000" />
     </task>
     <task id="LOCAL-00001" summary="1er commit de tp1">
       <option name="closed" value="true" />
@@ -145,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738687075182</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="A faire: les cartes">
+      <option name="closed" value="true" />
+      <created>1739279119955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739279119955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +183,7 @@
     <MESSAGE value="correction" />
     <MESSAGE value="Tp2 Premier Push" />
     <MESSAGE value="manques des fichiers tp-object et tp-string lors de la récuperaton" />
-    <option name="LAST_COMMIT_MESSAGE" value="manques des fichiers tp-object et tp-string lors de la récuperaton" />
+    <MESSAGE value="A faire: les cartes" />
+    <option name="LAST_COMMIT_MESSAGE" value="A faire: les cartes" />
   </component>
 </project>
