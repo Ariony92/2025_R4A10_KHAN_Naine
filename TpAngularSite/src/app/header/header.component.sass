@@ -4,6 +4,7 @@ header
   padding: 5%
 
 
+
 #LogoImage
   display: flex
   width: 45px
@@ -15,6 +16,30 @@ header
   margin-left: 5px
   font-family: mulish, sans-serif
 
+
+app-nav
+  flex: 1
+  display: flex
+  justify-content: flex-end
+
+#mobile-menu-button
+  display: none
+  background: none
+  border: none
+  font-size: 24px
+  cursor: pointer
+  position: absolute
+  right: 20px
+  top:  50px
+  z-index: 1100
+
+
+@media screen and (max-width: 600px)
+  app-nav
+    display: none
+
+  #mobile-menu-button
+    display: block
 
 
 

@@ -9,12 +9,14 @@ main
   display: flex
   align-items: center
   padding: 7%
+  gap: 5px
 
 
 
 
 #gauche
   max-width: 50%
+  flex: 1
 
 
 #HeroTitre
@@ -56,5 +58,31 @@ main
 #imageHero
   max-width: 100%
   height: auto
-  margin-left: 50%
+  margin-left: 81%
 
+@media screen and (max-width: 600px)
+  #principal
+    flex-direction: column
+    text-align: center
+    gap: 20px
+
+  #gauche
+    max-width: 80%
+    margin-left: 15%
+
+  #HeroTitre
+    font-size: 32px
+
+  #paragraphe
+    font-size: 18px
+
+  #button
+    font-size: 16px
+    padding: 12px 25px
+
+  #droite
+    justify-content: right
+
+
+  #imageHero
+    width: 90%
