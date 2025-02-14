@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dbd094d-d48f-44a8-b055-c08e8680990b" name="Changes" comment="A faire: les cartes">
-      <change afterPath="$PROJECT_DIR$/TpAngularSite/src/assets/bocalmedoc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TpAngularSite/src/assets/stats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TpAngularSite/src/assets/tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TpAngularSite/src/assets/tablette.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TpAngularSite/src/assets/trousse.png" afterDir="false" />
+    <list default="true" id="8dbd094d-d48f-44a8-b055-c08e8680990b" name="Changes" comment="continuité cartes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/styles.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +118,8 @@
       <workItem from="1739276484544" duration="2658000" />
       <workItem from="1739456565237" duration="5194000" />
       <workItem from="1739533892928" duration="109000" />
-      <workItem from="1739534376833" duration="1544000" />
+      <workItem from="1739534376833" duration="1845000" />
+      <workItem from="1739544193630" duration="5228000" />
     </task>
     <task id="LOCAL-00001" summary="1er commit de tp1">
       <option name="closed" value="true" />
@@ -173,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739533950753</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="continuité cartes">
+      <option name="closed" value="true" />
+      <created>1739536204942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739536204942</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +209,7 @@
     <MESSAGE value="Tp2 Premier Push" />
     <MESSAGE value="manques des fichiers tp-object et tp-string lors de la récuperaton" />
     <MESSAGE value="A faire: les cartes" />
-    <option name="LAST_COMMIT_MESSAGE" value="A faire: les cartes" />
+    <MESSAGE value="continuité cartes" />
+    <option name="LAST_COMMIT_MESSAGE" value="continuité cartes" />
   </component>
 </project>

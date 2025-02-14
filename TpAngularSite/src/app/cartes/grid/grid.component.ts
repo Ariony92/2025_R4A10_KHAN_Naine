@@ -31,7 +31,7 @@ export class GridComponent {
     {
       title: "Consultation",
       description: "Free consultation with our trusted doctors and get the best recomendations",
-      image: "assets/bocalmedoc.png",
+      image: "assets/tablette.png",
     },
     {
       title: "Details info",
