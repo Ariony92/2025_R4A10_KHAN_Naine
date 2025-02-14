@@ -1,0 +1,19 @@
+<footer>
+  <ul id="footer-info">
+    <li id="footer-logo">
+      <img src="assets/footerlogo.png" alt="Trafalgar Logo">
+      <h4>Trafalgar</h4>
+    </li>
+    <li id="slogan">
+      <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+      <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+    </li>
+  </ul>
+
+  <ul *ngFor="let section of footerSections" id="footer-section">
+    <p>{{ section.title }}</p>
+    <li *ngFor="let link of section.links">
+      <a href="#">{{ link }}</a>
+    </li>
+  </ul>
+</footer>

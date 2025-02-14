@@ -1,0 +1,18 @@
+<section id="sec1">
+  <h3 id="titre">What our customers are saying</h3>
+  <div id="divider"></div>
+
+  <div id="content">
+    <figure id="item">
+      <img id="image" [src]="feedback.image" alt="{{ feedback.nom }}"/>
+      <figcaption id="info">
+        <span id="name">{{ feedback.nom }}</span>
+        <span id="status">{{ feedback.status }}</span>
+      </figcaption>
+    </figure>
+
+    <blockquote id="message">
+      "{{ feedback.message }}"
+    </blockquote>
+  </div>
+</section>

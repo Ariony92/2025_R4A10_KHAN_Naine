@@ -1,0 +1,11 @@
+<ul id="menu">
+  <li *ngFor="let element of nav"
+      [id]="element === pagePrincipale && 'home-link'"
+      [class.active]="element === pagePrincipale"
+      (click)="setActiveTab(element)">
+    <a href="#">{{ element }}</a>
+  </li>
+</ul>
+
+
+<!--petit feature stylé lorsqu'on change d'onglet nav selon le titre la couleur devient noir et c'est pas que le Home qui reste de couleur noir-->

@@ -4,11 +4,12 @@ import { HeaderComponent } from './header/header.component';
 import { HomeMainComponent } from './Hero/home-main.component';
 import { CartesComponent } from './cartes/cartes.component';
 import { FooterComponent } from './footer/footer.component';
+import {ArticleComponent} from "./article/article.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, HomeMainComponent, CartesComponent, FooterComponent],
+  imports: [HeaderComponent, HomeMainComponent, CartesComponent, FooterComponent, ArticleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass'
 })
