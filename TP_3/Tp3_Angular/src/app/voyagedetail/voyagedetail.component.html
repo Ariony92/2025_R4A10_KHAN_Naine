@@ -1,0 +1,14 @@
+<section id="voyageDetails">
+  <h2>{{ voyage.destination }}</h2>
+  <img [src]="voyage.image" alt="{{ voyage?.destination }}" id="image">
+  <p>{{ voyage.description }}</p>
+  <p class="prix">{{ voyage.prix }}€</p>
+  <button (click)="ouvrirPopUp(voyage.id)" id="bouttonSupprimer">Supprimer</button>
+</section>
+
+
+<article id="popUp" [hidden]="!popUpSupp">
+  <p>Voulez-vous vraiment supprimer le voyage <strong>{{ voyageASupprimer?.destination }}</strong> ?</p>
+  <button (click)="supprimerVoyage()" id="buttonOUI">Oui</button>
+  <button (click)="fermerPopUp()" id="bouttonNON">Non</button>
+</article>

@@ -47,3 +47,29 @@ export const DESCRIPTIONS: string[] = [
 export const PRIX: number[] = [
   799, 899, 999, 1099, 1199, 1299, 1399, 1499, 1599, 1699, 1799, 1899, 1999, 2099, 2199, 2299, 2399, 2499, 2599, 2699,
 ];
+
+
+export const IMAGES: string[] = [
+  'assets/images/bali-indonesie.jpg',
+  'assets/images/kyoto-japon.jpg',
+  'assets/images/santorin-grece.jpg',
+  'assets/images/reykjavik-islande.jpg',
+  'assets/images/marrakech-maroc.jpg',
+  'assets/images/venise-italie.jpg',
+  'assets/images/rio-de-janeiro-bresil.jpg',
+  'assets/images/phuket-thailande.jpg',
+  'assets/images/new-york-etats-unis.jpg',
+  'assets/images/le-cap-afrique-du-sud.jpg',
+  'assets/images/sydney-australie.jpg',
+  'assets/images/hanoi-vietnam.jpg',
+  'assets/images/toronto-canada.jpg',
+  'assets/images/bangkok-thailande.jpg',
+  'assets/images/dubai-emirats-arabes-unis.jpg',
+  'assets/images/londres-royaume-uni.jpg',
+  'assets/images/buenos-aires-argentine.jpg',
+  'assets/images/copenhague-danemark.jpg',
+  'assets/images/amsterdam-pays-bas.jpg',
+  'assets/images/lisbonne-portugal.jpg'
+];
+
+

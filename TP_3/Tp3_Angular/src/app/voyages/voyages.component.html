@@ -1,2 +1,29 @@
-<p>voyages works!</p>
-<a routerLink="/">Home</a>
+
+<article id="popUp" [hidden]="!popUpSupp">
+  <p>Voulez-vous vraiment supprimer le voyage <strong>{{ voyageASupprimer?.destination }}</strong> ?</p>
+  <button (click)="supprimerVoyage()" id="buttonOUI">Oui</button>
+  <button (click)="fermerPopUp()" id="bouttonNON">Non</button>
+</article>
+
+<h2 id="titre">Voyages Proposés :</h2>
+
+<ul id="voyageGrille">
+  <li *ngFor="let voyage of voyages.slice(compteur, compteur + voyagesParPage)" id="voyageCarte">
+    <img [src]="voyage.image" alt="{{ voyage.destination }}" id="images">
+    <h3>{{ voyage.destination }}</h3>
+    <p>{{ voyage.description | slice:0:20 }}...</p>
+    <p id="prix">{{ voyage.prix }} €</p>
+
+    <nav id="actions">
+      <a [routerLink]="['/voyages', voyage.id]" id="bouttonDetails">Détails</a>
+      <button (click)="ouvrirPopUp(voyage.id)" id="bouttonSupprimer">Supprimer</button>
+    </nav>
+  </li>
+</ul>
+
+
+<nav id="pagination">
+  <button (click)="changerPage(-1)">← Précédent</button>
+  <span id="pagenbr">Page {{ (compteur / voyagesParPage) + 1 }}</span>
+  <button (click)="changerPage(1)">Suivant →</button>
+</nav>

@@ -1,0 +1,18 @@
+<section id="generervoyage">
+  <h1 id="titregenerer">Générer un Voyage</h1>
+  <h4 id="messageinfo">Cliquez plusieurs fois sur 'Générer un Voyage' pour avoir d'autre choix de voyages</h4>
+
+  <button (click)="genererVoyage()" id="bouttongenerer">Générer un voyage</button>
+
+  <ng-container>
+    <article id="voyagecarte" [hidden]="!voyageAleatoire">
+      <img [src]="voyageAleatoire?.image" alt="{{ voyageAleatoire?.destination }}" id="voyageimage">
+      <h2 id="voyagetitre">{{ voyageAleatoire?.destination }}</h2>
+      <p id="voyagedescription">{{ voyageAleatoire?.description }}</p>
+      <p id="voyageprix">{{ voyageAleatoire?.prix }} €</p>
+    </article>
+
+  </ng-container>
+  <button (click)="validerVoyage()" id="bouttonValider">Valider ce voyage</button>
+
+</section>

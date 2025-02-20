@@ -1,27 +1,39 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
-import {VoyagesComponent} from "./voyages/voyages.component";
+import { VoyagesComponent } from "./voyages/voyages.component";
+import {NotfoundComponent} from "./notfound/notfound.component";
+import {VoyagedetailComponent} from "./voyagedetail/voyagedetail.component";
+import {GenerervoyageComponent} from "./generervoyage/generervoyage.component";
+
 
 export const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    redirectTo: 'home',
+    pathMatch: 'full',
   },
   {
     path: 'home',
-    redirectTo: '',
+    component: HomeComponent,
   },
   {
     path: 'voyages',
     component: VoyagesComponent,
   },
   {
+    path: 'voyages/:id',
+    component: VoyagedetailComponent
+  },
+  {
+    path: 'genererVoyage',
+    component: GenerervoyageComponent
+  },
+  {
+    path: '404',
+    component: NotfoundComponent,
+  },
+  {
     path: '**',
     redirectTo: '404',
   },
-
-
-
-
-];
+]

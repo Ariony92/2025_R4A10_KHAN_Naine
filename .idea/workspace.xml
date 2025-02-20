@@ -5,66 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dbd094d-d48f-44a8-b055-c08e8680990b" name="Changes" comment="continuité cartes">
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/modele/voyage_modele.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/amsterdam-pays-bas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/bali-indonesie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/bangkok-thailande.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/buenos-aires-argentine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/copenhague-danemark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/dubai-emirats-arabes-unis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/hanoi-vietnam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/kyoto-japon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/le-cap-afrique-du-sud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/lisbonne-portugal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/londres-royaume-uni.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/marrakech-maroc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/new-york-etats-unis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/phuket-thailande.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/reykjavik-islande.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/rio-de-janeiro-bresil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/santorin-grece.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/sydney-australie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/toronto-canada.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/assets/images/venise-italie.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RapportTp2AngularSite_Lighthouse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/footer/footer.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/footer/footer.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/footer/footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/header.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/header.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/nav/nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/nav/nav.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/nav/nav.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/header/nav/nav.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_seance_2/1_types.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_seance_2/2_interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_seance_2/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_seance_2/lego_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_seance_2/lego_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP_seance_2/lego_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/button/button.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/button/button.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/button/button.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/button/button.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/footer/footer.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/header/header.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/header/header.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/bocalmedoc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/button.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/footerlogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/lego_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/lego_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/lego_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/loop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/stats.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/tab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/tablette.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/trousse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/styles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/voyages/voyages.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/voyages/voyages.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/voyages/voyages.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/voyages/voyages.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/voyages/voyages.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/voyages/voyages.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/data.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +56,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -130,7 +110,7 @@
     "Node.js.tp-array.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "tp3",
-    "last_opened_file_path": "/home/etudiants/info/zkhan/Documents/R4A10/TP_3",
+    "last_opened_file_path": "C:/Users/Kf51A/WebstormProjects/2025_R4A10_KHAN_Naine/TP_3/Tp3_Angular/src/app",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -139,16 +119,19 @@
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/etudiants/info/zkhan/WebstormProjects/2025_R4A10_KHAN_Naine/TP_3/Tp3_Angular/node_modules/typescript/lib",
+    "ts.external.directory.path": "C:\\Users\\Kf51A\\WebstormProjects\\2025_R4A10_KHAN_Naine\\TP_3\\Tp3_Angular\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kf51A\WebstormProjects\2025_R4A10_KHAN_Naine\TP_3\Tp3_Angular\src\app" />
       <recent name="C:\Users\Kf51A\WebstormProjects\2025_R4A10_KHAN_Naine\TpAngularSite\src\assets" />
       <recent name="$PROJECT_DIR$/TpAngularSite/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kf51A\WebstormProjects\2025_R4A10_KHAN_Naine\TP_3\Tp3_Angular\src\assets" />
+      <recent name="C:\Users\Kf51A\WebstormProjects\2025_R4A10_KHAN_Naine\TP_3\Tp3_Angular\src\assets\images" />
       <recent name="C:\Users\Kf51A\WebstormProjects\2025_R4A10_KHAN_Naine\TpAngularSite\src\assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -276,6 +259,8 @@
     <MESSAGE value="manques des fichiers tp-object et tp-string lors de la récuperaton" />
     <MESSAGE value="A faire: les cartes" />
     <MESSAGE value="continuité cartes" />
-    <option name="LAST_COMMIT_MESSAGE" value="continuité cartes" />
+    <MESSAGE value="TP 3 Fini" />
+    <MESSAGE value="route home -&gt; voyage réalisé" />
+    <option name="LAST_COMMIT_MESSAGE" value="route home -&gt; voyage réalisé" />
   </component>
 </project>

@@ -3,6 +3,7 @@
       [id]="element === pagePrincipale && 'home-link'"
       [class.active]="element === pagePrincipale"
       (click)="setActiveTab(element)">
-    <a href="#">{{ element }}</a>
+    <a [routerLink]="getRoute(element)">{{ element }}</a>
+
   </li>
 </ul>
