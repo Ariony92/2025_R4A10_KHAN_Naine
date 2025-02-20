@@ -6,15 +6,65 @@
   <component name="ChangeListManager">
     <list default="true" id="8dbd094d-d48f-44a8-b055-c08e8680990b" name="Changes" comment="continuité cartes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/footer/footer.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/footer/footer.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/header/header.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/TpAngularSite/src/app/header/header.component.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RapportTp2AngularSite_Lighthouse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TP_3/Tp3_Angular/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_seance_2/1_types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_seance_2/2_interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_seance_2/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_seance_2/lego_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_seance_2/lego_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP_seance_2/lego_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/Hero/home-main.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/article.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/articleitems/articleitems.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/button/button.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/button/button.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/button/button.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/article/button/button.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/cartes.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid-items/grid-items.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/cartes/grid/grid.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/footer/footer.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/app/header/header.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/bocalmedoc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/button.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/footerlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/lego_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/lego_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/lego_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/loop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/stats.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/tablette.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/assets/trousse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpAngularSite/src/styles.sass" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +97,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="tp1" />
+        <entry key="$PROJECT_DIR$" value="tp2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,25 +124,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Node.js.tp-array.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;tp2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kf51A/WebstormProjects/2025_R4A10_KHAN_Naine/TpAngularSite/src/assets&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Kf51A\\WebstormProjects\\2025_R4A10_KHAN_Naine\\TpAngularSite\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.tp-array.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "tp3",
+    "last_opened_file_path": "/home/etudiants/info/zkhan/Documents/R4A10/TP_3",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/etudiants/info/zkhan/WebstormProjects/2025_R4A10_KHAN_Naine/TP_3/Tp3_Angular/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kf51A\WebstormProjects\2025_R4A10_KHAN_Naine\TpAngularSite\src\assets" />
@@ -106,7 +156,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
       </set>
     </attachedChunks>
   </component>
@@ -135,6 +185,7 @@
       <workItem from="1739534376833" duration="1845000" />
       <workItem from="1739544193630" duration="5228000" />
       <workItem from="1739276484544" duration="2539000" />
+      <workItem from="1740054297904" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="1er commit de tp1">
       <option name="closed" value="true" />
