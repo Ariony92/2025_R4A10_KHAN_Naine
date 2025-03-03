@@ -3,7 +3,6 @@ import {Router, RouterLink} from "@angular/router";
 import { VoyageService } from '../services/voyage.service';
 import { Voyage } from '../modele/voyage_modele';
 import {SlicePipe} from "@angular/common";
-import { CommonModule } from '@angular/common';
 
 
 
@@ -11,7 +10,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-voyages',
   standalone: true,
-  imports: [RouterLink, SlicePipe,  CommonModule],
+  imports: [RouterLink, SlicePipe],
   templateUrl: './voyages.component.html',
   styleUrl: './voyages.component.sass'
 })
@@ -68,6 +67,11 @@ export class VoyagesComponent implements OnInit {
     if (nouvelleValeur >= 0&& nouvelleValeur < this.voyages.length) {
       this.compteur=nouvelleValeur;
     }
+  }
+
+
+  getVoyageRoute(id: string): string {
+    return '/voyages/' + id;
   }
 
 

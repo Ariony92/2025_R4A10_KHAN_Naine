@@ -11,5 +11,5 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
   styleUrl: './home.component.sass'
 })
 export class HomeComponent {
-}
 
+}

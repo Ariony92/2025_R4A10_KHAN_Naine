@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [RouterLink],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.sass'
 })
@@ -16,6 +15,18 @@ export class NavComponent {
   setActiveTab(tab: string): void {
     this.pagePrincipale = tab;
   }
+
+ getonglet(element: string): string {
+    if (element === this.pagePrincipale) {
+      return 'home-link';
+    }
+    return '';
+  }
+
+  tabactive(element: string): boolean {
+    return element === this.pagePrincipale;
+  }
+
 
   getRoute(element: string): string {
     switch (element) {
