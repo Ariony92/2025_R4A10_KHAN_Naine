@@ -1,9 +1,0 @@
-<ul id="menu">
-  <li *ngFor="let element of nav"
-      [id]="element === pagePrincipale && 'home-link'"
-      [class.active]="element === pagePrincipale"
-      (click)="setActiveTab(element)">
-    <a [routerLink]="getRoute(element)">{{ element }}</a>
-
-  </li>
-</ul>
