@@ -1,0 +1,21 @@
+<form [formGroup]="livreformulaire" (ngSubmit)="onSubmit()">
+  <label for="author">Auteur :</label>
+  <input type="text" id="author" formControlName="author" />
+  @if (livreformulaire.get('author')?.invalid && livreformulaire.get('author')?.touched) {
+    <p>Il n'y a pas d'auteur ! (min 5 caractère)</p>
+  }
+
+  <label for="title">Titre :</label>
+  <input type="text" id="title" formControlName="title" />
+  @if (livreformulaire.get('title')?.invalid && livreformulaire.get('title')?.touched) {
+    <p>Il n'y a pas de titre ! (min 2 caractères)</p>
+  }
+
+  <label for="description">Description :</label>
+  <textarea id="description" formControlName="description"></textarea>
+  @if (livreformulaire.get('description')?.invalid && livreformulaire.get('description')?.touched) {
+    <p>Il n' y a pas de description ! (min 10 caractères)</p>
+  }
+
+  <button  type="submit" [disabled]="livreformulaire.invalid">Ajouter le livre</button>
+</form>
